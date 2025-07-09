@@ -2,6 +2,8 @@
 
 This is a standalone Java reference implementation for integrating with the LetPot API and MQTT services. It provides a simple way to authenticate with LetPot, retrieve devices, and control them via MQTT commands.
 
+It leverages learnings from @jpelgrom's [python-letpot](https://github.com/jpelgrom/python-letpot) project.
+
 ## Features
 
 - Authentication with LetPot API
@@ -30,6 +32,7 @@ java -jar target/letpot-java-reference-1.0.0.jar
 ```
 
 The demo application will:
+
 1. Prompt for your LetPot email and password
 2. Authenticate with the LetPot API
 3. Retrieve your devices
@@ -82,4 +85,4 @@ The client consists of:
 
 ## License
 
-This project is provided as a reference implementation and can be freely used in your own projects. 
+This project is provided as a reference implementation and can be freely used in your own projects.
